@@ -1,9 +1,10 @@
 import Link from 'next/link'
 
+
 const Header = () => {
   return (
     <div className="Header">
-      <Link><img src="/images/maget.png"/></Link>
+      <Link href="/"><img src="/images/magnet_rojo.png" className="logo"/></Link>
     </div>
   )
 }

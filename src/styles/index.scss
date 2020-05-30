@@ -11,6 +11,18 @@ body, .form{
   text-align: center;
 }
 
+.CardsContainer{
+  display: grid;
+  grid-template-rows: auto auto;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  width: 250px;
+}
+
+.CardsContainer img{
+  width: 100%;
+}
+
 *{
   margin:auto;
 }
@@ -21,4 +33,14 @@ body, .form{
 
 button, input{
   margin-top: 15px;
+}
+
+.logo{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50px;
+}
+
+.cientifico{
+  width: 200px;
 }

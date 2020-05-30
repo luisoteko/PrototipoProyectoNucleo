@@ -2,7 +2,7 @@ import Layout from '../Components/Layout';
 import {TextField, Button} from '@material-ui/core';
 import Link from 'next/link'
 
-import '../styles/index.css';
+import '../styles/index.scss';
 
 const Login = () => {
   return (

@@ -3,7 +3,7 @@ import {TextField} from '@material-ui/core';
 import {Button} from '@material-ui/core';
 import Link from 'next/link'
 
-import '../styles/index.css';
+import '../styles/index.scss';
 
 const Home = () => {
   return (

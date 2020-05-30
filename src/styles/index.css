@@ -1,0 +1,24 @@
+ul li{
+  list-style: none;
+}
+
+body, .form{
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  margin: auto;
+  max-width: 500px;
+  grid-row-gap: 20px;
+  text-align: center;
+}
+
+*{
+  margin:auto;
+}
+
+.bandera{
+  width: 100%;
+}
+
+button, input{
+  margin-top: 15px;
+}

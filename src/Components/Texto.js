@@ -9,7 +9,7 @@ const Texto = (props) => {
         <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu rutrum felis. Nullam mollis massa quis diam fermentum hendrerit. Donec blandit vitae neque vitae dictum. Maecenas vehicula erat ut dignissim aliquet. Praesent volutpat egestas sollicitudin. Nulla tempor ante magna, gravida.
         </p>
-        <h3>PREGUNTA X SOBRE EL TEXTO</h3>
+        <h3>QUE ACCION ESTA REALIZANDO EL PADRE DE LA NIÑA</h3>
         <TextField placeholder="Tu respuesta" multiline rows={2} rowsMax={4}/>
         <Button variant="contained" color="primary" onClick={props.handle}>CONTINUAR</Button>
 

@@ -1,4 +1,4 @@
-import { Radio, RadioGroup, FormControlLabel, FormControl, FormLabel, Button } from '@material-ui/core'
+import { Radio, RadioGroup, FormControlLabel, Button } from '@material-ui/core'
 
 const Video = (props) => {
 

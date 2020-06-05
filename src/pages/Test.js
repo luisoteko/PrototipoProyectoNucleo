@@ -19,7 +19,7 @@ const Test = (props) => {
   },[])
 
   const nextPage = () => {
-    if (count < 20) {
+    if (count < 10) {
       setCount(count + 1)
 
       if (count === 0 && props.url.query['tipo'] != null) {

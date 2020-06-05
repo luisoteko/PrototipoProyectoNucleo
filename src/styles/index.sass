@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;500;600;700;800&display=swap')
+
 ul li
   list-style: none
 
@@ -7,8 +9,9 @@ body, .form
   grid-template-rows: auto auto auto auto auto
   margin: auto
   max-width: 500px
-  grid-row-gap: 20px
+  grid-row-gap: 10px
   text-align: center
+  font-family: 'Baloo Thambi 2', cursive;
   @media screen and (max-width: 768px)
     font-size: 1.5em
     margin: 10px
@@ -32,6 +35,8 @@ body, .form
   span
     margin: auto
     text-align: center
+  h5
+
 
 .CardsContainer
   display: grid
@@ -105,3 +110,13 @@ input
   grid-auto-columns: max-content;
   grid-gap: 30px;
   margin-left: 29%;
+
+video
+  margin: auto
+
+.form_video
+  .MuiFormGroup-root
+    flex-direction: (initial !important)
+.form_audio
+  .MuiFormControlLabel-root
+    display: block

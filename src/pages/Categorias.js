@@ -30,7 +30,7 @@ const Categorias = () => {
 
   return(
     <Layout pageName="Resultados">
-      <h2>Elige un tema para practicar</h2>
+      <h2>ELIGE UN TEMA PARA PRACTICAR</h2>
       <div className="CardsContainer">
       {
         data.map((item, index)=>{

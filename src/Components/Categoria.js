@@ -14,7 +14,6 @@ const Categoria = (props) => {
         : props.titulo == "PRONOMBRES"
           ? <div className="collage">
               <img src="/images/pronombres/familia.png"/>
-              <img src="/images/pronombres/usuario.png" width="0"/>
             </div>
           : props.titulo == "PROFESIONES"
             ? <div className="collage">
@@ -69,7 +68,6 @@ const Categoria = (props) => {
                     : props.titulo == "LUGARES"
                       ? <div className="collage">
                         <img src="/images/lugares/sitio.png"/>
-                        <img src="/images/pronombres/usuario.png" width="0"/>
                       </div>:null}
     </Tarjeta>
   )

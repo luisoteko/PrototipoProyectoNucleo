@@ -1,0 +1,103 @@
+ul li
+  list-style: none
+
+
+body, .form
+  display: grid
+  grid-template-rows: auto auto auto auto auto
+  margin: auto
+  max-width: 500px
+  grid-row-gap: 20px
+  text-align: center
+  @media screen and (max-width: 768px)
+    font-size: 1.5em
+    margin: 10px
+
+.Header
+  .logo_big
+    height: 300px
+    width: auto
+  span
+    font-size: 3em
+    font-family: cursive
+  margin-bottom: 15px
+
+
+.form
+  text-align: justify
+  p
+    @media screen and (max-width: 768px)
+      font-size: 0.7em
+  span
+    margin: auto
+    text-align: center
+
+.CardsContainer
+  display: grid
+  grid-template-columns: auto auto
+  grid-gap: 20px
+  width: auto
+  margin: auto
+  @media screen and (max-width: 425px)
+    grid-gap: 10px
+    grid-template-columns: auto
+    max-width: 300px
+
+.CardsContainer img
+  width: 100%
+
+
+.banderasContainer
+  display: grid
+  grid-template-columns: auto auto
+  grid-template-rows: auto auto
+  grid-gap: 10px
+
+*
+  margin:auto
+
+
+.bandera
+  width: 150px
+  border-radius: 30%
+  height: 100px
+  margin-top: 10px
+
+
+button, input
+  margin-top: 15px
+
+
+.logo
+  margin-top: 10px
+  margin-bottom: 10px
+  width: 50px
+
+
+.cientifico
+  width: 200px
+  margin: auto
+
+.selected
+  border-color: (blue !important)
+
+input
+  text-align: center
+
+
+.collage
+  display: grid
+  grid-template-columns: auto auto
+  grid-gap: 10px
+  height: 220px
+  grid-area: none
+  img
+    height: 100%
+    width: auto
+    margin: auto
+
+.botonesEleccion
+  display: grid;
+  grid-auto-columns: max-content;
+  grid-gap: 30px;
+  margin-left: 29%;

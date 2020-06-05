@@ -1,10 +1,19 @@
 import Link from 'next/link'
 
-
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="Header">
-      <Link href="/"><img src="/images/magnet_rojo.png" className="logo"/></Link>
+      <Link href="/">
+        <div>
+          {props.name=="Inicio"?
+          <img src="/images/magnet_rojo.png" className="logo logo_big"/>:
+          <img src="/images/magnet_rojo.png" className="logo"/>
+          }
+          <br/>
+          <br/>
+
+        </div>
+      </Link>
     </div>
   )
 }

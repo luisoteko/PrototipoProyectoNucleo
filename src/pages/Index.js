@@ -1,19 +1,16 @@
 import Layout from '../Components/Layout';
-import {TextField} from '@material-ui/core';
 import {Button} from '@material-ui/core';
 import Link from 'next/link'
 
-import '../styles/index.scss';
+import '../styles/index.sass';
 
 const Home = () => {
   return (
       <Layout pageName="Inicio">
         <form noValidate={false} autoComplete="on" className="form">
-          <TextField label="Usuario" variant="outlined"/>
-          <TextField label="Contraseña" variant="outlined"/>
-          <TextField label="Confirmar Contraseña" variant="outlined"/>
-          <Link href="/Confirmacion"><Button variant="contained" color="primary">Registrame</Button></Link>
-          <h5>Ya tienes una cuenta? <Link href="/Login"><a>Inicia Sesion</a></Link></h5>
+          <Link href="/Login"><Button variant="contained" color="primary">Iniciar Sesion</Button></Link>
+          <Link href="/Regitro"><Button variant="contained" color="primary">Registrame</Button></Link>
+          <Link href="/Conocenos"><Button variant="contained" color="primary">Conocenos</Button></Link>
         </form>
       </Layout>
   )

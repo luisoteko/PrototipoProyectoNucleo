@@ -4,16 +4,16 @@ import Head from 'next/head'
 import {Fragment} from 'react'
 
 const Layout = (props) => {
+
   return (
     <main>
       <Head>
         <title>{props.pageName}</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/images/magnet_rojo.png" />
       </Head>
-      <Header/>
+      <Header name={props.pageName}/>
       <Fragment>
-      {props.children}
-
+        {props.children}
       </Fragment>
       <Footer/>
     </main>

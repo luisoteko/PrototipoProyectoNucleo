@@ -3,7 +3,7 @@ import { Card } from '@material-ui/core';
 const Tarjeta = (props) =>{
 
   let classes=props.selected?"card selected":"card"
-  classes = classes + " " + props.className
+  classes = classes + " " + props.className+"Wrapper"
 
   return (
     <Card variant="outlined" onClick={props.handle} className={classes}>

@@ -35,7 +35,7 @@ const Imagen = (props) => {
               <RadioGroup aria-label="gender" name="opciones" >
                 <FormControlLabel value="a. La persona esta feliz" control={<Radio />} label="a. La persona esta feliz" />
                 <FormControlLabel value="b. La persona esta triste" control={<Radio />} label="b. La persona esta triste" />
-                <FormControlLabel value="c. La persona esta neutral" control={<Radio />} label="c. La persona esta neutral" />
+                <FormControlLabel value="c. La persona esta preocupada" control={<Radio />} label="c. La persona esta preocupada" />
                 <FormControlLabel value="d. Ninguna de las anteriores" control={<Radio />} label="d. Ninguna de las anteriores" />
               </RadioGroup>
             </div>

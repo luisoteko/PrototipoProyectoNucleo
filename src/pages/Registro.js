@@ -12,7 +12,7 @@ const Home = () => {
           <TextField label="Contraseña" variant="outlined"/>
           <TextField label="Confirmar Contraseña" variant="outlined"/>
           <Link href="/Confirmacion"><Button variant="contained" color="primary">Registrame</Button></Link>
-          <h5>Ya tienes una cuenta? <Link href="/Login"><a>Inicia Sesion</a></Link></h5>
+          <h5>¿YA TIENES UNA CUENTA? <Link href="/Login"><a>Inicia Sesion</a></Link></h5>
         </form>
       </Layout>
   )

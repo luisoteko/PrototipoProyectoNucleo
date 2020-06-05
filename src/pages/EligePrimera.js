@@ -7,6 +7,7 @@ import '../styles/index.sass';
 const EligePrimera = () => {
   return (
     <Layout pageName="Confirmacion">
+      <h3>CON EL SIGUIENTE TEST ANALIZAREMOS TU NIVEL DEL IDIOMA QUE ELEGISTE Y LA ESTRUCTURA DE LAS PREGUNTAS QUE MEJOR COMPRENDES </h3>
       <h3>ELIGE LA CATEGORIA CON LA QUE TE SIENTAS MAS COMODO</h3>
       <div className="botonesEleccion">
         <Link href={{pathname: "/Test", query:{tipo: 'TEXTO'}}}><Button variant="contained" color="primary">Comprension de Texto</Button></Link>

@@ -33,10 +33,10 @@ const Imagen = (props) => {
             <h3>SELECCIONA LA OPCION QUE CONSIDERES CORRECTA</h3>
             <div className="form_audio">
               <RadioGroup aria-label="gender" name="opciones" >
-                <FormControlLabel value="a. La persona esta feliz" control={<Radio />} label="a. La persona esta feliz" />
-                <FormControlLabel value="b. La persona esta triste" control={<Radio />} label="b. La persona esta triste" />
-                <FormControlLabel value="c. La persona esta preocupada" control={<Radio />} label="c. La persona esta preocupada" />
-                <FormControlLabel value="d. Ninguna de las anteriores" control={<Radio />} label="d. Ninguna de las anteriores" />
+                <FormControlLabel value="a. The person is happy" control={<Radio />} label="a. The person is happy" />
+                <FormControlLabel value="b. The person is sad" control={<Radio />} label="b. The person is sad" />
+                <FormControlLabel value="c. The person is worried" control={<Radio />} label="c. The person is worried" />
+                <FormControlLabel value="d. None of above" control={<Radio />} label="d. None of above" />
               </RadioGroup>
             </div>
           </div>

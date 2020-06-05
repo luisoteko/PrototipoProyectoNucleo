@@ -8,7 +8,7 @@ const Audio = (props) => {
         <audio controls>
           <source src="horse.ogg" type="audio/ogg"/>
         </audio>
-        <h3>SELECCIONA LA OPCION QUE CONSIDERES CORRECTA</h3>
+        <h3>SELECCIONA LA OPCIÓN QUE CONSIDERES CORRECTA</h3>
         <div className="form_audio">
           <RadioGroup aria-label="gender" name="opciones" >
             <FormControlLabel value="a. Estan en una tienda" control={<Radio />} label="a. Estan en una tienda" />

@@ -8,7 +8,7 @@ const Video = (props) => {
       <video controls>
         <source src="horse.ogg" type="video/ogg" />
       </video>
-      <h3>SELECCIONA LA OPCION QUE CONSIDERES CORRECTA</h3>
+      <h3>SELECCIONA LA OPCIÓN QUE CONSIDERES CORRECTA</h3>
         <div className="form_video">
           <RadioGroup aria-label="gender" name="opciones" >
             <FormControlLabel value="a. Son dos amigas hablando" control={<Radio />} label="a. Son dos amigas hablando" />

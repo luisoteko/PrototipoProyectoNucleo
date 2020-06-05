@@ -10,7 +10,7 @@ const Resultados = () => {
         <span><h4>IMAGENES:</h4> 30%</span>
         <span><h4>TEXTO:</h4> 5%</span>
         <span><h4>VIDEO:</h4> 55%</span>
-        <span>GENIAL, PARECE QUE LA MANERA EN LA QUE MEJOR APRENDES ES VIENDO VIDEOS</span>
+        <span className="textoResultado">GENIAL, PARECE QUE LA MANERA EN LA QUE MEJOR APRENDES ES VIENDO VIDEOS</span>
         <Link href="/Categorias"><Button variant="contained" color="primary">CONTINUAR</Button></Link>
       </div>
   )

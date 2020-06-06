@@ -5,6 +5,7 @@ El presente es un prototipo de una aplicacion web para que las personas puedan a
 
 ##
 Para poder ejecutar esto neceistas tener instalado Node y npm
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started

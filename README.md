@@ -1,3 +1,9 @@
+
+## Trabajo
+
+El presente es un prototipo de una aplicacion web para que las personas puedan aprender un idioma, la aplicacion tendria un componente de machine learning, especificamente con aprendizaje no supervisado, que identifique la manera en la que la persona aprende mas facilmente
+
+##
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
